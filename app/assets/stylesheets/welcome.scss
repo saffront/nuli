@@ -13,6 +13,24 @@ body {
 	width:  300px;
   	height: auto;
   	margin: 0 auto;
+  	padding-bottom: 20px;
+}
+
+.text-spaced {
+	line-height: 1.3em;
+}
+
+.text-p {
+	padding-top: 10px;
+}
+
+.btn-palette {
+	background-color: #443276;
+	color: #fff;
+}
+
+.clear {
+	padding-top: 3px;
 }
 
 .background-header { 
@@ -22,7 +40,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   min-height: 660px;
-  padding-top: 200px;
+  padding-top: 120px;
 }
 
 #mc_embed_signup {
@@ -39,34 +57,23 @@ body {
 }
 
 .fa {
-	padding-right: 10px;
-}
-
-.sitemap {
-	margin-top: -30px;
-}
-
-.sitemap2 {
-	margin-top: 60px;
+	margin-left: 40px;
+	color: #443276;
 }
 
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-footer .socialmedia {
-  margin-bottom: 20px;
-  margin-left: 40px;
+footer .social-icons {
+  position:relative;
+  margin: 0 auto;
 }
 
 footer.details {
   background: #f4f4f4;
 }
-footer.details .logo-small {
-  margin-bottom: 54px;
-  max-width: 80px;
-  margin-top: 12px;
-}
+
 footer.details .sub {
   font-size: 12px;
   display: inline-block;

@@ -1,0 +1,124 @@
+/* line 1, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* line 6, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.navbar {
+  background: #0069AA;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+/* line 12, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.logo {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* line 19, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.text-spaced {
+  line-height: 1.3em;
+}
+
+/* line 23, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.text-p {
+  padding-top: 10px;
+}
+
+/* line 27, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.btn-palette {
+  background-color: #337AB7;
+  color: #fff;
+}
+
+/* line 32, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.clear {
+  padding-top: 3px;
+}
+
+/* line 36, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.background-header {
+  background: url(desk.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 660px;
+  padding-top: 120px;
+}
+
+/* line 46, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+#mc_embed_signup {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 53, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.email {
+  min-width: 250px;
+  width: auto;
+  display: inline;
+}
+
+/* line 59, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.fa {
+  margin-left: 40px;
+}
+
+/* line 63, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 67, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+footer .social-icons {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 72, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+footer.details {
+  background: #f4f4f4;
+}
+
+/* line 76, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+footer.details .sub {
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 48px;
+}
+
+/* line 81, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+footer.details .sub a {
+  color: #333333;
+  font-weight: 600;
+}
+
+/* line 85, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+footer.details h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
