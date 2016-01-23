@@ -1,0 +1,50 @@
+/* line 1, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* line 6, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.navbar {
+  background: #0069AA;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+/* line 12, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.background-header {
+  background: url(desk.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 660px;
+  padding-top: 200px;
+}
+
+/* line 22, /Users/jiashern/Desktop/nulisite/app/assets/stylesheets/welcome.scss */
+.footer {
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 200px;
+  padding-top: 200px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
