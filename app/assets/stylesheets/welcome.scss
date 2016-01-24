@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
@@ -43,7 +52,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 660px;
+  min-height: 780px;
   padding-top: 120px;
 }
 
@@ -61,17 +70,13 @@ body {
 }
 
 .fa {
-	margin-left: 40px;
+	padding-right: 40px;
 	color: #443276;
 }
 
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-footer .social-icons {
-  position:relative;
-  margin: 0 auto;
 }
 
 footer.details {
@@ -92,3 +97,19 @@ footer.details h1 {
   font-weight: 600;
 }
 
+.footer {
+   text-align: center;
+   width: 100%;
+}
+
+ .f1,
+ .f2,
+ .f3 {
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   padding: 0px;
+   min-width: 300px;
+   width: 33%;
+
+ }
