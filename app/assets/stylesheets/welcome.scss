@@ -136,9 +136,26 @@ li {
         margin: 0 0 30px;
     }
 }
+#portfolio .fa {
+	color: #fff;
+}
 
 .rounded {
 	border-radius: 20px;
+}
+
+.btn-rounded {
+	background-color: transparent;
+	border-radius: 40px;
+	min-width: 100px;
+	min-height: 30px;
+	opacity: 0.4;
+	border: 2px solid white;
+	
+}
+
+.btn-rounded:hover {
+	color: #fff;
 }
 
 .portfolio-p {
