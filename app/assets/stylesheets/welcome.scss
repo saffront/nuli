@@ -74,7 +74,7 @@ li {
 }
 
 .fa {
-	padding-right: 40px;
+	padding:0 20px 0 20px;
 	color: #443276;
 }
 
@@ -100,5 +100,12 @@ footer {
    text-align: center;
    min-width: 300px;
    width: 33%;
+ }
 
+ .copyright {
+ 	display: inline-block;
+ 	position: relative;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	padding-left: 40px;
  }
