@@ -175,7 +175,8 @@ li {
 //footer
 
 .fa {
-	padding:0 20px 0 20px;
+  margin-right:20px;
+	padding:0 20px 0 0;
 	color: #443276;
 }
 
@@ -200,9 +201,8 @@ footer {
  .f3 {
    position: relative;
    display: inline-block;
-   text-align: center;
+   margin: 0 auto;
    min-width: 300px;
-   width: 33%;
  }
 
  .copyright {
@@ -210,6 +210,19 @@ footer {
  	position: relative;
  	margin: 0 auto;
  	text-align: center;
- 	padding-left: 40px;
+ 	padding-left: 0px;
   color: #d3d3d3;
  }
+
+@media screen and (max-width: 600px) {
+ .verticalline1 {
+    border-right: thick solid #ff0000;
+  }
+ .verticalLine2 {
+    border-left: thick solid #ff0000;
+  }  
+}
+
+
+
+
