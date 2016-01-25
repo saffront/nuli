@@ -137,7 +137,8 @@ li {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 0 0 60px;
+        padding: 0 0 0px;
     }
 }
 #portfolio .fa {
@@ -153,8 +154,8 @@ li {
 	border-radius: 40px;
 	min-width: 100px;
 	min-height: 30px;
-	opacity: 0.4;
-	border: 2px solid white;
+	opacity: 0.8;
+	border: 2.5px solid white;
 	
 }
 
@@ -163,7 +164,7 @@ li {
 }
 
 .portfolio-p {
-	font-size:15px;
+	font-size:14px;
 	line-height: 3em;
 }
 
