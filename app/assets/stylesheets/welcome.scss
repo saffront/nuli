@@ -181,7 +181,7 @@ li {
 }
 
 footer {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   margin-bottom: 0 ;
   overflow: hidden;
@@ -190,6 +190,7 @@ footer {
 .footer {
    text-align: center;
    width: 100%;
+   padding: 0 180px 0 180px;
 }
 
 .footer-space {
@@ -205,6 +206,13 @@ footer {
    min-width: 300px;
  }
 
+@media (min-width: 1024px) {
+   .f2 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;  
+ }
+}
+
  .copyright {
  	display: inline-block;
  	position: relative;
@@ -213,16 +221,5 @@ footer {
  	padding-left: 0px;
   color: #d3d3d3;
  }
-
-@media screen and (max-width: 600px) {
- .verticalline1 {
-    border-right: thick solid #ff0000;
-  }
- .verticalLine2 {
-    border-left: thick solid #ff0000;
-  }  
-}
-
-
 
 
