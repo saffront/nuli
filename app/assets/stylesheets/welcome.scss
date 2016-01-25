@@ -135,6 +135,10 @@ li {
     z-index: 2;
 }
 
+.flybery {
+  border: 2px solid gray;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 60px;
@@ -207,4 +211,5 @@ footer {
  	margin: 0 auto;
  	text-align: center;
  	padding-left: 40px;
+  color: #d3d3d3;
  }
