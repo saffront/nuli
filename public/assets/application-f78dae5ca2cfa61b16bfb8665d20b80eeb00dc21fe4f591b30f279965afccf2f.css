@@ -1,0 +1,271 @@
+/* line 1, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-height: 2048px) {
+  /* line 11, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+  .background-header {
+    min-height: 1066px;
+  }
+}
+/* line 15, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* line 19, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.text-light {
+  font-weight: 300 !important;
+}
+
+/* line 22, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 25, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.navbar {
+  margin: 0 !important;
+  border: 0 !important;
+  background: #0069AA;
+}
+
+/* line 31, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.logo {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* line 37, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.spaced {
+  padding: 20px 0;
+}
+
+/* line 40, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.text-light {
+  font-color: gray;
+}
+
+/* line 43, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.text-spaced {
+  line-height: 2em;
+}
+
+/* line 46, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.text-p {
+  padding: 10px 0 20px;
+}
+
+/* line 49, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.text-white {
+  color: white;
+}
+
+/* line 52, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.btn-palette {
+  color: #fff;
+  background-color: #443276;
+}
+
+/* line 56, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.clear {
+  padding-top: 3px;
+}
+
+/* line 59, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.background-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 780px;
+  padding-top: 120px;
+  background-image: url(desk2.jpg);
+  background-size: cover;
+}
+
+/* line 77, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.email {
+  min-width: 250px;
+}
+
+/* line 81, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+/* line 86, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* line 94, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item .portfolio-link .caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: #314374;
+}
+
+/* line 107, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+/* line 111, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* line 125, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+
+/* line 128, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+
+/* line 132, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio * {
+  z-index: 2;
+}
+
+/* line 135, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.flybery {
+  border: 2px solid gray;
+}
+
+@media (min-width: 767px) {
+  /* line 139, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+  #portfolio .portfolio-item {
+    margin: 0 0 60px;
+    padding: 0;
+  }
+}
+/* line 144, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+#portfolio .fa {
+  color: #fff;
+}
+
+/* line 147, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.rounded {
+  border-radius: 20px;
+}
+
+/* line 150, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.btn-rounded {
+  min-width: 100px;
+  min-height: 30px;
+  opacity: 0.8;
+  border: 2.5px solid white;
+  border-radius: 40px;
+  background-color: transparent;
+}
+
+/* line 159, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.btn-rounded:hover {
+  color: #fff;
+}
+
+/* line 162, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.portfolio-p {
+  font-size: 14px;
+  line-height: 3em;
+}
+
+/* line 167, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.fa-move {
+  margin-right: 20px;
+  padding: 0 20px 0 0;
+  color: #443276;
+}
+
+/* line 173, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+footer {
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+/* line 180, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.footer {
+  width: 100%;
+  padding: 0 180px;
+  text-align: center;
+}
+
+/* line 186, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.footer-space {
+  padding-bottom: 5px;
+}
+
+/* line 189, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.f1,
+.f2,
+.f3 {
+  position: relative;
+  display: inline-block;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  /* line 200, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+  .f2 {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+  }
+}
+/* line 205, /Users/jiashern/Desktop/nulilanding/app/assets/stylesheets/welcome.scss */
+.copyright {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: center;
+  color: #d3d3d3;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
