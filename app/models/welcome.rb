@@ -4,7 +4,7 @@ def subscribe
 gb = Gibbon::API.new
 
 gb.lists.subscribe({
-  double_opt_in: false
+  double_opt_in: false,
   :id => @list_id,
   :email => {:email => params[:email][:address]}
   })
