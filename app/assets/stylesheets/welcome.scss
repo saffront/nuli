@@ -164,12 +164,6 @@ li {
   line-height: 3em;
 }
 //footer
-.fa-move {
-  margin-right: 20px;
-  padding: 0 20px 0 0;
-
-  color: #443276;
-}
 footer {
   overflow: hidden;
 
@@ -179,8 +173,6 @@ footer {
 }
 .footer {
   width: 100%;
-  padding: 0 180px;
-
   text-align: center;
 }
 .footer-space {
@@ -189,11 +181,8 @@ footer {
 .f1,
 .f2,
 .f3 {
-  position: relative;
-
+  position: absolute;;
   display: inline-block;
-
-  min-width: 300px;
   margin: 0 auto;
 }
 @media (min-width: 1024px) {
@@ -202,6 +191,13 @@ footer {
     border-left: 2px solid black;
   }
 }
+
+.fa-move {
+  margin: 0 10px 0 20px;
+  padding: 0 20px 0 0;
+  color: #443276;
+}
+
 .copyright {
   position: relative;
 
