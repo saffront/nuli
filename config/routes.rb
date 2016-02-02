@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  post 'welcome/subscribe' => 'welcome#subscribe'
   root 'welcome#index'
 
   # Example of regular route:
